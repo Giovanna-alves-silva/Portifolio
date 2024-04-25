@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(80deg, rgb(230, 156, 168), rgb(240, 219, 235));
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column; /* define a direção dos itens */
+    align-items: center; /* alinha os itens horizontalmente */
+    justify-content: center; /* alinha os itens verticalmente */
+   
+}
+
+header img{
+    width: 180px;
+    height: 220px;
+    border: 5px solid rgb(235, 172, 224);
+    border-radius: 20px;
+}
+header img:hover{  /* o hover serve para alterar o estilo quando o mouse estiver em cima do elemento  */
+    width: 200px;
+    height: 260px;
+    transition: 1s;
+}
+
+header nav ul li {
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    display: inline;
+    padding: 80px ;
+}
+
+header nav {
+    padding: 40px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    
+}
+
+header nav a li:hover{
+    background-color: rgb(218, 167, 191);
+    color: rgb(0, 0, 0);
+    transition: 2s;
+}
