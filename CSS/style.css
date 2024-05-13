@@ -19,14 +19,14 @@ header {
 }
 
 header img{
-    width: 180px;
-    height: 220px;
+    width: 170px;
+    height: 210px;
     border: 5px solid rgb(235, 172, 224);
-    border-radius: 20px;
+    border-radius: 200px;
 }
 header img:hover{  /* o hover serve para alterar o estilo quando o mouse estiver em cima do elemento  */
-    width: 200px;
-    height: 260px;
+    width: 180px;
+    height: 220px;
     transition: 1s;
 }
 
@@ -69,10 +69,25 @@ main h1{
     text-align: center;
     padding: 40px 0px;
     text-transform: uppercase;
+    font-size: 40px;
 }
 
-.cont1 {
+.texto-descrição h3 {
     text-align: justify; 
     padding: 0px 70px 15px 25px;
+    font-size: 17px;
 }
 
+.accordion {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px  10px 50px black;
+}
+
+.card-header {
+    background-color: rgb(218, 167, 191);
+}
+
+.card-body {
+    background-color: rgb(255, 237, 255);
+}
